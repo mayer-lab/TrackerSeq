@@ -47,7 +47,7 @@ TrackerSeq is a 10X Genomics compatible method that labels cells with a unique l
    * Output:
      1. Trimmed matrix CSV file with cellbc column added
 5. CloneID assignment (**5_cloneID_assignment.R**)
-   * Here we model clonal relationships as a network were nodes are cell-IDs (i.e. cells), which are connected if they share at least one common lineage barcode. The algorithm iterates through all lineage barcodes contained in the sparse matrix from step 4 and progressively updates the edges of the network. Clonal identities are inferred by calculating connected components of the network. This procedure yields equivalent results the the former clustering approach using Jaccard distance (when using maximum distance smaller 1 as a cutoff, ~0.999), but is significantly faster.
+   * Here we model clonal relationships as a network where nodes are cell-IDs (i.e. cells), which are connected if they share at least one common lineage barcode. The algorithm iterates through all lineage barcodes contained in the sparse matrix from step 4 and progressively updates the edges of the network. Clonal identities are inferred by calculating connected components of the network. This procedure yields equivalent results the the former clustering approach using Jaccard distance (when using maximum distance smaller 1 as a cutoff, ~0.999), but is significantly faster.
    * Input: 
      1. Trimmed sparse matrix CSV file from step 4.
    * Output:
