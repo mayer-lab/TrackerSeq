@@ -10,7 +10,7 @@ Major updates
 
 
 Previous major versions 
-* 
+* The verison of the pipeline used in Del-Valle-Anton et al. 2024 found [here](https://github.com/mayer-lab/TrackerSeq/tree/main/Del-Valle-Anton_et_al/TrackerSeq_archived_pipeline)
 * The original repository of the TrackerSeq pipeline can be found [here](https://github.com/mayer-lab/Bandler-et-al_lineage).
 
 ## Dependencies
